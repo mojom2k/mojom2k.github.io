@@ -2,14 +2,370 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Portfolio - Mohit Kumar</title>
 </head>
 
 <body>
-    <h1>hello worldd</h1>
+  <header>
+    <nav id="nav-main" class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fab fa-monero"></i><span>Mohit</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav justify-content-end w-100">
+            <li class="nav-item active">
+              <a class="nav-link mx-3" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#a-target">Assigments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#c-target">Coding Challenges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#p-target">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ml-3" target="_blank" href="https://github.com/mojom2k">Github <i
+                  class="fab fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container my-4 py-5">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-user-tie mx-2"></i>Profile</h5>
+        <h6 class="card-subtitle"><span>About Me</span> </h6>
+        <p id="a-target" class="card-text">Learning Full Stack Web Development at AtainU. <br>
+          Take a look at the links to different assignments and coding challenges <br> that I've attempted to solve
+          while
+          learning new
+          skills and technologies.
+        </p>
+      </div>
+    </div>
+
+
+    <div id="assignments" class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-file-alt mx-2"></i>Assignments</h5>
+        <h6 class="level">
+          Shallow Dive Assignments
+        </h6>
+        <h6 class="card-subtitle"><span>Week 1</span></h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm-6">
+              <a target="_blank" href="#">Why I want to be a Coder</a>
+              <a target="_blank" href="#">About me</a>
+            </div>
+            <div class="col-sm-6">
+              <a target="_blank" href="#">Simple HTML Table</a>
+              <a target="_blank" href="#">Web Mail Template</a>
+            </div>
+          </div>
+        </div>
+        <h6 class="card-subtitle"><span>Week 2</span></h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm-6">
+              <a target="_blank" href="assignment/week2/day1/script.js">Output Even numbers from 1 to 100</a>
+              <a target="_blank" href="assignment/week2/day2/app.js">Multiplication table of 5</a>
+            </div>
+            <div class="col-sm-6">
+              <a target="_blank" href="assignment/week2/day3/index.html">JS Event Handlers</a>
+              <a target="_blank" href="assignment/week2/day4/index.html">Simple Calculator with UI</a>
+            </div>
+          </div>
+        </div>
+        <h6 class="card-subtitle"><span>Week 3</span></h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm-6">
+              <a target="_blank" href="assignment/week3/day2/index.html">Login page</a>
+            </div>
+            <div class="col-sm-6">
+              <a target="_blank" href="assignment/week3/day3/index.html">Bootstrap Company Website</a>
+            </div>
+          </div>
+        </div>
+        <h6 class="card-subtitle"><span>Week 4</span></h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm-6">
+              <a target="_blank" href="assignment/week4/day1/index.js">Search value in Array</a>
+              <a target="_blank" href="#">Search Engine using DuckDuckGo Api</a>
+            </div>
+            <div class="col-sm-6">
+              <a target="_blank" href="assignment/week4/day3/index.html">Stack Emulator App</a>
+            </div>
+          </div>
+        </div>
+        <h6 class="card-subtitle"><span>Week 5</span></h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm-6">
+              <a target="_blank" href="assignment/week5/day1/index.html">Quiz App</a>
+            </div>
+            <div class="col-sm-6">
+            </div>
+          </div>
+        </div>
+        <h6 class="card-subtitle"><span>Week 6</span></h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm-6">
+              <a target="_blank" href="#">Node.js app for arithmetic operation</a>
+              <a target="_blank" href="#">Tennis players Node.js app </a>
+            </div>
+            <div class="col-sm-6">
+              <a target="_blank" href="#">Rest Api for simple calculator</a>
+            </div>
+          </div>
+        </div>
+        <h6 class="card-subtitle"><span>Week 7</span></h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm-6">
+              <a target="_blank" href="#">Express + MongoDB CRUD application</a>
+            </div>
+            <div class="col-sm-6">
+              <a target="_blank" href="#">Signup and login page for the blog application</a>
+            </div>
+          </div>
+        </div>
+        <h6 class="level">
+          <span>Deep Dive Assignments</span>
+        </h6>
+        <h6 class="card-subtitle"><span>Week 12</span></h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm-6">
+              <a target="_blank" href="#">Quiz application in jQuery</a>
+            </div>
+            <div class="col-sm-6">
+            </div>
+          </div>
+        </div>
+        <h6 class="card-subtitle"><span>Week 13</span></h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm-6">
+              <a target="_blank" href="#">HelloWorld button component in React</a>
+              <a target="_blank" href="assignment/react/calculator/index.js">React Simple Calculator</a>
+            </div>
+            <div id="c-target" class="col-sm-6">
+              <a target="_blank" href="assignment/react/login/index.js">React Login Form</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="challenges" class="card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-user-cog mx-2"></i>Coding Challenges</h5>
+        <h6 class="level">
+          <span>Shallow Dive Coding Challenges</span>
+        </h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #1</span></h6>
+              <a target="_blank" href="#">Login page using Bootstrap</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #2</span></h6>
+              <a target="_blank" href="#">Looping Through an Array</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #3</span></h6>
+              <a target="_blank" href="#">Compare Two Arrays</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #4</span></h6>
+              <a target="_blank" href="#">Ajax and Search</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #5</span></h6>
+              <a target="_blank" href="#">DOM Manipulation</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #6</span></h6>
+              <a target="_blank" href="#">String Search</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #7</span></h6>
+              <a target="_blank" href="#">Multiple Javascript File Linking</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #8</span></h6>
+              <a target="_blank" href="#">Star Pattern using Javascript</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #9</span></h6>
+              <a target="_blank" href="#">Book Search App - Client Side</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #10</span></h6>
+              <a target="_blank" href="#">Hamming Distance Algorithm</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #11</span></h6>
+              <a target="_blank" href="#">Spell checker using Hamming Distance Algorithm</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #12</span></h6>
+              <a target="_blank" href="#">ExpressJS CRUD</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #13</span></h6>
+              <a target="_blank" href="#">Read JSON data and store it in MongoDB</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #14</span></h6>
+              <a target="_blank" href="#">Search - Server Side</a>
+            </div>
+          </div>
+        </div>
+        <h6 class="level">
+          <span>Deep Dive Coding Challenges</span>
+        </h6>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #1</span></h6>
+              <a target="_blank" href="#">CSS Scripting</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #2</span></h6>
+              <a target="_blank" href="#">Functional Programming</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #3</span></h6>
+              <a target="_blank" href="#">Numbers to Words</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #4</span></h6>
+              <a target="_blank" href="#">Object Constructor</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #5</span></h6>
+              <a target="_blank" href="#">ES6 rewrite of `MyArray`</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #6</span></h6>
+              <a target="_blank" href="#">MyFile Handler</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #7</span></h6>
+              <a target="_blank" href="#">Power of Two</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #8</span></h6>
+              <a target="_blank" href="#">Globals, Objects & Closures</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #9</span></h6>
+              <a target="_blank" href="#">Bootstrap Company Page in React</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #10</span></h6>
+              <a target="_blank" href="#">React Events & States</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #11</span></h6>
+              <a target="_blank" href="coding-challenges/prime-number/index.js">Prime Numbers</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #12</span></h6>
+              <a target="_blank" href="#">Lifting up React State</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          <div class="row">
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #13</span></h6>
+              <a target="_blank" href="coding-challenges/color-console/index.js">Console Color</a>
+            </div>
+            <div class="col-sm">
+              <h6 class="card-subtitle"><span>Challenge #14</span></h6>
+              <!-- <a target="_blank" href="#">React State Challenge</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

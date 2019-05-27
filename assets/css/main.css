@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
+
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+    background-color: rgba(240, 243, 245, 0.863);
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+}
+
+.navbar .fa-monero {
+    font-size: 45px;
+    background: -webkit-linear-gradient(right, rgb(87, 202, 255), rgb(100, 224, 255));
+    background: -moz-linear-gradient(right, rgb(87, 202, 255), rgb(100, 224, 255));
+    background: linear-gradient(to right, rgb(87, 202, 255), rgb(100, 224, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin: 2em 0;
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-title {
+    background: linear-gradient(to right, rgb(87, 202, 255), rgb(98, 224, 255));
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.7em 1.7em;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+#assignments .card-title,
+#challenges .card-title,
+#projects .card-title {
+    margin-bottom: 0;
+}
+
+.card-subtitle span {
+    padding: 1em 0 0.3em 0;
+    margin-left: 2em;
+    border-bottom: 2px solid rgb(90, 214, 230);
+    text-transform: uppercase;
+    color: #5d606b;
+    font-weight: 600;
+}
+
+.card-text {
+    padding: 1.5em 2em;
+}
+
+.level {
+    padding: 0.6em 2em;
+    margin: 0 0 2em 0;
+    background-color: #f8fcfd;
+    color: rgb(117, 124, 136);
+}
+
+#challenges .level {
+    margin: 0 0 1em 0;
+}
+
+#challenges .card-subtitle {
+    margin-bottom: 1.5em;
+}
+
+#challenges .card-subtitle span {
+    padding: 1em 0 0.3em 0;
+    margin: 0;
+}
+
+a span {
+    font-family: 'Montserrat',
+        sans-serif;
+    color: #5d606b;
+    font-size: 25px;
+    margin: 0 10px;
+    top: -6px;
+    position: relative;
+}
+
+h1 {
+    color: #6586fc;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+p,
+h3 {
+    margin-top: 15px;
+    color: #5d606b;
+}
+
+.card a {
+    color: rgb(0, 75, 146);
+    display: block;
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: #f8fcfd;
+    border-bottom: 2px solid #fff;
+    font-weight: 500;
+}
+
+a:hover {
+    color: rgb(82, 200, 255);
+}
+
+.section-container {
+    padding: 70px 0 0 0;
+}
